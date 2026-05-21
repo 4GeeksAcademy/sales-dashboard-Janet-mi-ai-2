@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Influencer Dashboard | Overall</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen bg-stone-100 font-[Manrope] text-stone-900">
+  <header class="bg-gradient-to-r from-cyan-700 via-sky-700 to-blue-800 text-white">
+    <nav class="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6">
+      <h1 class="text-lg font-extrabold tracking-tight">Influencer Revenue Lab</h1>
+      <ul class="flex flex-wrap gap-2 text-sm font-semibold sm:text-base">
+        <li><a href="index.html" class="rounded-full bg-white/20 px-4 py-2 transition-colors duration-300">Overall</a></li>
+        <li><a href="instagram.html" class="rounded-full px-4 py-2 transition-colors duration-300 hover:bg-white/20">Instagram</a></li>
+        <li><a href="tiktok.html" class="rounded-full px-4 py-2 transition-colors duration-300 hover:bg-white/20">TikTok</a></li>
+        <li><a href="youtube.html" class="rounded-full px-4 py-2 transition-colors duration-300 hover:bg-white/20">YouTube</a></li>
+      </ul>
+    </nav>
+    <section class="mx-auto max-w-6xl px-4 pb-8 pt-3 sm:px-6 sm:pb-10">
+      <p class="inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-bold uppercase tracking-wide">All Platforms Combined</p>
+      <h2 class="mt-3 text-3xl font-extrabold leading-tight sm:text-4xl">Where your revenue and commissions are growing fastest</h2>
+      <p class="mt-3 max-w-3xl text-sm text-cyan-100 sm:text-base">Commission earnings, top products by revenue, ad conversion quality, return by platform, and engagement rate by platform and by product.</p>
+    </section>
+  </header>
+  <main class="mx-auto grid w-full max-w-6xl gap-6 px-4 py-6 sm:px-6 sm:py-8">
+    <section aria-labelledby="overall-kpi" class="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-stone-200 sm:p-6">
+      <div class="mb-4 flex items-end justify-between gap-3">
+        <h3 id="overall-kpi" class="text-2xl font-extrabold">KPI</h3>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <article class="rounded-xl bg-cyan-50 p-4 ring-1 ring-cyan-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <p class="text-sm font-semibold text-cyan-800">Total Revenue</p>
+          <p class="mt-1 text-3xl font-extrabold text-black">$82,700</p>
+          <p class="mt-2 text-xs text-stone-600">Retinol + Botox Kits + Microneedle across all channels</p>
+        </article>
+        <article class="rounded-xl bg-emerald-50 p-4 ring-1 ring-emerald-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <p class="text-sm font-semibold text-emerald-800">Commission Earned (15%)</p>
+          <p class="mt-1 text-3xl font-extrabold text-black">$12,405</p>
+          <p class="mt-2 text-xs text-stone-600">How much money you generate in commissions</p>
+        </article>
+        <article class="rounded-xl bg-amber-50 p-4 ring-1 ring-amber-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <p class="text-sm font-semibold text-amber-800">Best Revenue Product</p>
+          <p class="mt-1 text-3xl font-extrabold text-black">Botox Kits</p>
+          <p class="mt-2 text-xs text-black">$33,000 total revenue, highest of all products</p>
+        </article>
+        <article class="rounded-xl bg-violet-50 p-4 ring-1 ring-violet-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <p class="text-sm font-semibold text-violet-800">Ad Conversion Rate</p>
+          <p class="mt-1 text-3xl font-extrabold text-black">0.084%</p>
+          <p class="mt-2 text-xs text-black">1,070 conversions from 1,270,000 reach</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="overall-drivers" class="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-stone-200 sm:p-6">
+      <div class="mb-4 flex items-end justify-between gap-3">
+        <h3 id="overall-drivers" class="text-2xl font-extrabold">Drivers</h3>
+      </div>
+      <div class="grid gap-4 lg:grid-cols-3">
+        <article class="rounded-xl bg-sky-50 p-4 ring-1 ring-sky-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <h4 class="text-sm font-bold uppercase tracking-wide text-sky-900">Platform Return (Revenue/Costs)</h4>
+          <p class="mt-2 text-lg font-bold">Instagram leads at 4.62x ROAS</p>
+          <ul class="mt-3 space-y-1 text-sm">
+            <li>Instagram: $30,000 / $6,500 = 4.62x</li>
+            <li>TikTok: $33,000 / $9,000 = 3.67x</li>
+            <li>YouTube: $19,700 / $5,200 = 3.79x</li>
+          </ul>
+        </article>
+        <article class="rounded-xl bg-sky-50 p-4 ring-1 ring-sky-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <h4 class="text-sm font-bold uppercase tracking-wide text-sky-900">Engagement Rate by Platform</h4>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li class="flex items-center justify-between"><span>Instagram</span><span class="font-bold">6.8%</span></li>
+            <li class="flex items-center justify-between"><span>TikTok</span><span class="font-bold">8.4%</span></li>
+            <li class="flex items-center justify-between"><span>YouTube</span><span class="font-bold">5.9%</span></li>
+          </ul>
+          <p class="mt-3 text-xs text-stone-500">TikTok currently wins engagement volume, Instagram wins return efficiency.</p>
+        </article>
+        <article class="rounded-xl bg-sky-50 p-4 ring-1 ring-sky-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <h4 class="text-sm font-bold uppercase tracking-wide text-sky-900">Engagement Rate by Product</h4>
+          <ul class="mt-3 space-y-2 text-sm">
+            <li class="flex items-center justify-between"><span>Retinol Cream</span><span class="font-bold">7.2%</span></li>
+            <li class="flex items-center justify-between"><span>Botox Kits</span><span class="font-bold">6.1%</span></li>
+            <li class="flex items-center justify-between"><span>Personal Microneedle</span><span class="font-bold">6.8%</span></li>
+          </ul>
+          <p class="mt-3 text-xs text-stone-500">Retinol has the strongest interaction quality for top-funnel creative.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="overall-ops" class="rounded-2xl bg-white p-5 shadow-sm ring-1 ring-stone-200 sm:p-6">
+      <div class="mb-4 flex items-end justify-between gap-3">
+        <h3 id="overall-ops" class="text-2xl font-extrabold">Operational Details</h3>
+      </div>
+      <div class="grid gap-4 xl:grid-cols-2">
+        <article class="overflow-x-auto rounded-xl bg-amber-50 ring-1 ring-amber-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <table class="min-w-full divide-y divide-stone-200 text-sm">
+            <caption class="bg-amber-100 px-4 py-3 text-left text-xs font-bold uppercase tracking-wide text-amber-900">Product Revenue Table</caption>
+            <thead class="bg-amber-100/70">
+              <tr>
+                <th class="px-4 py-2 text-left font-semibold">Product</th>
+                <th class="px-4 py-2 text-right font-semibold">Price</th>
+                <th class="px-4 py-2 text-right font-semibold">Units Sold</th>
+                <th class="px-4 py-2 text-right font-semibold">Revenue</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              <tr><td class="px-4 py-2">Retinol Cream</td><td class="px-4 py-2 text-right">$50</td><td class="px-4 py-2 text-right">410</td><td class="px-4 py-2 text-right">$20,500</td></tr>
+              <tr><td class="px-4 py-2">Botox Kits</td><td class="px-4 py-2 text-right">$120</td><td class="px-4 py-2 text-right">275</td><td class="px-4 py-2 text-right">$33,000</td></tr>
+              <tr><td class="px-4 py-2">Personal Microneedle</td><td class="px-4 py-2 text-right">$80</td><td class="px-4 py-2 text-right">365</td><td class="px-4 py-2 text-right">$29,200</td></tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="overflow-x-auto rounded-xl bg-amber-50 ring-1 ring-amber-100 transition duration-300 hover:-translate-y-1 hover:shadow-lg">
+          <table class="min-w-full divide-y divide-stone-200 text-sm">
+            <caption class="bg-amber-100 px-4 py-3 text-left text-xs font-bold uppercase tracking-wide text-amber-900">Platform Performance Table</caption>
+            <thead class="bg-amber-100/70">
+              <tr>
+                <th class="px-4 py-2 text-left font-semibold">Platform</th>
+                <th class="px-4 py-2 text-right font-semibold">Reach</th>
+                <th class="px-4 py-2 text-right font-semibold">Conversions</th>
+                <th class="px-4 py-2 text-right font-semibold">Revenue</th>
+                <th class="px-4 py-2 text-right font-semibold">Costs</th>
+                <th class="px-4 py-2 text-right font-semibold">ROAS</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-100">
+              <tr><td class="px-4 py-2">Instagram</td><td class="px-4 py-2 text-right">420,000</td><td class="px-4 py-2 text-right">395</td><td class="px-4 py-2 text-right">$30,000</td><td class="px-4 py-2 text-right">$6,500</td><td class="px-4 py-2 text-right">4.62x</td></tr>
+              <tr><td class="px-4 py-2">TikTok</td><td class="px-4 py-2 text-right">610,000</td><td class="px-4 py-2 text-right">430</td><td class="px-4 py-2 text-right">$33,000</td><td class="px-4 py-2 text-right">$9,000</td><td class="px-4 py-2 text-right">3.67x</td></tr>
+              <tr><td class="px-4 py-2">YouTube</td><td class="px-4 py-2 text-right">240,000</td><td class="px-4 py-2 text-right">245</td><td class="px-4 py-2 text-right">$19,700</td><td class="px-4 py-2 text-right">$5,200</td><td class="px-4 py-2 text-right">3.79x</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="mx-auto mt-2 w-full max-w-6xl px-4 pb-8 text-xs text-stone-500 sm:px-6">
+    Demo data for planning and decision-making. Commission model assumes 15% per unit sold.
+  </footer>
+</body>
+</html>
